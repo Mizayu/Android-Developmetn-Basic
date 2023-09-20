@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Belajar AndroidActivity</string>
+    <string name="title_activity_count">CountActivity</string>
+    <string name="title_activity_calculator">calculator</string>
+    <string name="title_activity_opencamera">opencamera</string>
+    <string name="title_activity_camera">camera</string>
+    <string name="lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="sinopsis">""Ted Lasso" adalah sebuah seri televisi komedi yang pertama kali tayang pada tahun 2020. Seri ini diciptakan oleh Bill Lawrence, Jason Sudeikis, Joe Kelly, dan Brendan Hunt. Berikut adalah sinopsis singkat dari seri ini:
+
+"Ted Lasso" mengikuti kisah Ted Lasso (diperankan oleh Jason Sudeikis), seorang pelatih sepak bola Amerika yang memiliki sedikit pengalaman dengan sepak bola sepakbola Inggris, yang mendapatkan kesempatan melatih tim sepak bola profesional Inggris, AFC Richmond. Ted Lasso awalnya diperkerjakan oleh pemilik baru klub, Rebecca Welton (diperankan oleh Hannah Waddingham), yang memiliki niat jahat untuk merusak tim karena alasan pribadi.
+
+Meskipun awalnya Ted tampak seperti orang yang tidak sesuai dengan lingkungan sepak bola Inggris yang keras dan kompetitif, dia membawa pendekatan yang positif dan optimis terhadap pelatihan dan kehidupan. Dia dibantu oleh Coach Beard (diperankan oleh Brendan Hunt), dan kru yang beragam yang berusaha membantu tim memenangkan pertandingan dan mengatasi berbagai masalah pribadi mereka.
+
+Seri ini menggali tema-tema seperti kebaikan, kepemimpinan, persahabatan, dan ketahanan dalam menghadapi kesulitan. "Ted Lasso" mendapat pujian luas atas karakter utamanya yang optimis, humor, dan pesan positif yang disampaikannya. Seri ini menjadi hit kritis dan populer, memenangkan berbagai penghargaan, termasuk Emmy Awards. "</string>
+    <string name="testimoni1">"Saya benar-benar terkesan dengan buku ini. Sejak halaman pertama, saya merasa terhubung dengan cerita dan karakter-karakternya. Penulis berhasil menciptakan dunia yang begitu hidup dan penuh warna sehingga saya merasa seolah-olah saya telah menginjakkan kaki di dalamnya."</string>
+    <string name="doa_harian"><![CDATA[Doa & Dzikir Harian]]></string>
+    <string name="doa_latin">Alhamdu lillahil ladzii ahyaanaa ba\'da maa amaa tanaa wa ilahin nusyuuruُ</string>
+    <string name="doa_arab">اَلْحَمْدُ ِللهِ الَّذِىْ اَحْيَانَا بَعْدَمَآ اَمَاتَنَا وَاِلَيْهِ النُّشُوْرُ</string>
+</resources>

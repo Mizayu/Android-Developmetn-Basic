@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    
+
+
+    <ImageView
+        android:id="@+id/gambar1"
+        android:layout_width="316dp"
+        android:layout_height="349dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/produk" />
+
+    <ImageButton
+        android:id="@+id/idBack"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/baseline_arrow_back_ios_24"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="30dp"
+        android:layout_alignParentStart="true"
+        />
+
+    <TextView
+        android:id="@+id/tvProduk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rexus GX300"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/gambar1"
+        android:layout_marginStart="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$54,5"
+        android:textColor="#F57C00"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/tvProduk"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <ImageButton
+        android:id="@+id/ibFavorite"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tvProduk"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/baseline_favorite_24"
+        android:backgroundTint="#f57c00"
+        android:layout_marginTop="15dp"/>
+
+    <ImageButton
+        android:id="@+id/ibStar1"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_below="@+id/tvPrice"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/baseline_star_24"
+        android:backgroundTint="#fbc02d"
+        />
+
+    <ImageButton
+        android:id="@+id/ibStar2"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_below="@+id/tvPrice"
+        android:layout_toRightOf="@+id/ibStar1"
+        android:background="@drawable/baseline_star_24"
+        android:backgroundTint="#fbc02d" />
+
+    <ImageButton
+        android:id="@+id/ibStar3"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_below="@+id/tvPrice"
+        android:layout_toRightOf="@+id/ibStar2"
+        android:background="@drawable/baseline_star_24"
+        android:backgroundTint="#fbc02d" />
+
+    <ImageButton
+        android:id="@+id/ibStar4"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_below="@+id/tvPrice"
+        android:layout_toRightOf="@+id/ibStar3"
+        android:background="@drawable/baseline_star_24"
+        android:backgroundTint="#fbc02d" />
+
+    <ImageButton
+        android:id="@+id/ibStar5"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_below="@+id/tvPrice"
+        android:layout_toRightOf="@+id/ibStar4"
+        android:background="@drawable/baseline_star_24"
+        android:backgroundTint="#AFAFAF" />
+
+    <TextView
+        android:id="@+id/numberRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.0"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/ibStar5"
+        android:layout_below="@id/tvPrice"
+        android:textSize="18dp"
+        android:layout_marginStart="10dp"
+        />
+
+    <View
+        android:id="@+id/garis"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#d1cfcf"
+        android:layout_below="@id/ibStar5"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/brand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brand"
+        android:textSize="18dp"
+        android:textColor="#808080"
+        android:layout_below="@id/garis"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:id="@+id/isiBrand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rexus"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/brand"
+        android:layout_below="@id/garis"
+        android:layout_marginTop="50dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginStart="80dp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/tipe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipe"
+        android:textSize="18dp"
+        android:textColor="#808080"
+        android:layout_below="@id/brand"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/isiTipe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rexus Joystick GX300"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/tipe"
+        android:layout_below="@id/isiBrand"
+        android:layout_marginTop="25dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginStart="90dp"
+        />
+
+    <TextView
+        android:id="@+id/dimension"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dimensions"
+        android:textSize="18dp"
+        android:textColor="#808080"
+        android:layout_below="@id/tipe"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        />
+
+    <TextView
+        android:id="@+id/isiDimensions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="156mm x 106mm x 51mm"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/tipe"
+        android:layout_below="@id/isiTipe"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginStart="90dp"
+        />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/dimension"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#F44336"
+        android:text="Purchase"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        />
+
+
+</RelativeLayout>
